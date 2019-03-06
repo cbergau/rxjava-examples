@@ -1,7 +1,6 @@
-package de.arvato;
+package de.christianbergau;
 
 import io.reactivex.Observable;
-import io.reactivex.functions.Consumer;
 
 /**
  * The Empty, Never, and Throw operators generate Observables with very specific

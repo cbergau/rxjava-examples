@@ -1,4 +1,4 @@
-package de.arvato;
+package de.christianbergau;
 
 import io.reactivex.*;
 import io.reactivex.functions.Consumer;

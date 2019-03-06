@@ -1,7 +1,4 @@
-package de.arvato;
-
-import io.reactivex.Observable;
-import io.reactivex.functions.Consumer;
+package de.christianbergau;
 
 /**
  * The Defer operator waits until an observer subscribes to it, and then it generates
