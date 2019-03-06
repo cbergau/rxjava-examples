@@ -15,14 +15,6 @@ public class ObservableInterval {
                 .interval(3, TimeUnit.SECONDS)
                 .timeInterval()
                 .take(3)
-                .subscribe(longTimed -> {
-                    System.out.println(longTimed);
-                });
-
-        try {
-            Thread.sleep(10000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
+                .blockingSubscribe(System.out::println);
     }
 }
